@@ -115,7 +115,7 @@ export default function index() {
   }, [seconds, pomodoro, shortBreak, longBreak, ticking]);
 
   return (
-    <div className="bg-gray-900 min-h-screen font-inter">
+    <div className="bg-gray-700 min-h-screen font-inter">
       <div className="max-w-2xl min-h-screen mx-auto">
         <Navigation setOpenSetting={setOpenSetting} />
         <Timer
